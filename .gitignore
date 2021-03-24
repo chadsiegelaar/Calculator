@@ -1,0 +1,6 @@
+#Files and Folders that should be ignorred
+
+#Netbeans specific folders and file
+/nbproject/
+build.xml
+manifest.mf
