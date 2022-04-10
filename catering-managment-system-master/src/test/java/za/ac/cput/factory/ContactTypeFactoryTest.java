@@ -13,7 +13,7 @@ public class ContactTypeFactoryTest {
 
     @Test
     public void createContactType() {
-        ContactType contactType = ContactTypeFactory.createContactType("40383", "Telephone", "Doreen");
+        ContactType contactType = ContactTypeFactory.createContactType("223", "John Smith", "Customer");
         System.out.println(contactType.toString());
         assertNotNull(contactType);
 

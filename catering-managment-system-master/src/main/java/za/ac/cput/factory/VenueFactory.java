@@ -9,7 +9,7 @@ import za.ac.cput.entity.Venue;
 import za.ac.cput.util.Helper;
 
 public class VenueFactory {
-    public static Venue createVenue(String venueName, double venuePrice, String venueDescription) {
+    public static Venue createVenue(String venueId, String venueName, double venuePrice, String venueDescription) {
 
         if (Helper.isNullorEmpty(venueName)|| Helper.isNullorEmpty(venueDescription))
             return null;

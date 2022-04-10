@@ -72,10 +72,10 @@ public class ContactType {
             return this;
         }
 
-        public Builder copy(ContactType contacttype) {
-            this.contactTypeId = contacttype.contactTypeId;
-            this.contactTypeName = contacttype.contactTypeName;
-            this.contactTypeDescription = contacttype.contactTypeDescription;
+        public Builder copy(ContactType contactType) {
+            this.contactTypeId = contactType.contactTypeId;
+            this.contactTypeName = contactType.contactTypeName;
+            this.contactTypeDescription = contactType.contactTypeDescription;
             return this;
         }
 
